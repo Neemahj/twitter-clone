@@ -1,5 +1,218 @@
-*{
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-page {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.login-image {
+  width: 55%;
+}
+
+.login-fields{
+  padding: 10px;
+
+}
+
+.bird-icon{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.h1-text{
+  padding: 20px;
+  margin-top: 50px;
+  width: 100%;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.mid-section{
+  padding: 20px;
+  height: 300px;
+  max-width: 400px;
+}
+
+.mid-section h1{
+  font-weight: 700;
+}
+
+.mid-section button{
+  padding: 12px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.email-btn{
+  background-color:rgb(29 161 242);
+}
+
+.sign-in{
+  padding: 20px;
+  max-width: 400px;
+}
+.sign-in p{
+  font-weight: 600;
+}
+
+.sign-in button{
+  padding: 12px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+  color: rgb(29 161 242);
+  font-weight: 700;
+}
+
+.sign-in-modal{
+  border: 1px solid red;
+  height: 90vh;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 25px;
+}
+
+.icons{
+  margin: auto;
+}
+
+.close-modal{
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-bird{
+  margin-left: 250px;
+}
+
+.login-content{
+  width: 100%;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 70vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-content h1{
+  margin: 10px;
+}
+.login-content button{
+  padding: 10px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 80%;
+  margin: 10px;
+}
+
+.btn-login{
+  background-color: black;
+  color: white;
+  font-weight: 900;
+}
+
+.fgt-password{
+  font-weight: 600;
+}
+
+.login-content input[type="text"]{
+  padding: 20px;
+  width: 100%;
+  max-width: 80%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-content input[type="password"]{
+  padding: 10px;
+  width: 100%;
+  max-width: 80%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.link-div{
+  width: 100%;
+  max-width: 70%;
+  display: flex;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+/* HomePage */
+.app{
+  display: grid;
+  grid-template-columns: 1.1fr 2.1fr 1.4fr ;
+  background-color: gray;
+  color: white;
+}
+
+.side-bar{
+  background: rgb(21 32 43);
+  height: 100vh;
+  color: white;
+}
+
+header.modal-bird{
+
+}
+
+nav{
+  padding-left: 53px;
+  padding-top: 20px;
+}
+
+nav svg{
+  height: 25px;
+  margin-right: 0.9em;
+
+}
+
+nav > *, button.more-btn{
+  display: block;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  width: 100%;
+}
+
+/* nav > *, button.more-btn span{
+  background-color: red;
+  height: fit-content;
+  width: 12px;
+}
+
+nav > *, button.more-btn:hover{
+  
+} */
+
+button{
+  border: unset;
+  background: unset;
+}
+
+.feeds{
+  background: black;
+}
+
+.widget{
+  background: rgb(21 32 43);
 }
