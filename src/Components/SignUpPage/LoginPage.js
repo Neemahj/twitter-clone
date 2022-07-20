@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import {SiTwitter} from "react-icons/si";
 import {IoMdClose} from "react-icons/io";
+import "./SignUpPage.css";
 
 
 const LoginPage = ({ handleCloseModal }) => {

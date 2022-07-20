@@ -1,4 +1,5 @@
 import { SiTwitter } from "react-icons/si";
+import "./SignUpPage.css";
 
 const SignUp = ({handleOpenModal}) => {
   return (
@@ -20,8 +21,8 @@ const SignUp = ({handleOpenModal}) => {
         </div>
         <div className="mid-section" >
           <h1>Join Twitter today.</h1>
-          <button>Sign up with Google</button><br/>
-          <button>Sign up with Apple</button><br/>
+          <button className="google-signUp">Sign up with Google</button><br/>
+          <button className="google-signUp">Sign up with Apple</button><br/>
           {/* <div className="or-style">
           <hr/>
           <p>or</p>

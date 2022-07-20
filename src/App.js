@@ -1,12 +1,13 @@
 import "./App.css";
-import SignUp from "./Components/SignUp";
+import SignUp from "./Components/SignUpPage/SignUp";
 import Modal from "react-modal";
-import LoginPage from "./Components/LoginPage";
+import LoginPage from "./Components/SignUpPage/LoginPage";
 import { useState } from "react";
-import Register from "./Components/Register";
-import SideBar from "./Components/SideBar";
-import Feeds from "./Components/Feeds";
-import Widget from "./Components/Widget";
+import Register from "./Components/SignUpPage/Register";
+import SideBar from "./Components/NavBar/SideBar";
+import Feeds from "./Components/Feeds/Feeds";
+import Widget from "./Components/Widget/Widget";
+import Profile from "./Components/Profile/Profile";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,29 +22,25 @@ function App() {
   };
 
   return (
-    <div className="app">
-      {/* <SignUp handleOpenModal = {handleOpenModal}/>
+    <> 
+    {/* <SignUp handleOpenModal = {handleOpenModal}/>
       <Modal className="sign-in-modal"isOpen={openModal}>
         <LoginPage handleCloseModal ={handleCloseModal}/>
         <Register handleCloseModal ={handleCloseModal}/>
       </Modal> */}
-
+     
+     <div className="app">
       <SideBar />
       <Routes>
-        <Route path="/" exact>
-          Home
-        </Route>
-        <Route path="/explore">Explore</Route>
-        <Route path="/notifications">Notifications</Route>
-        <Route path="/messages">Messages</Route>
-        <Route path="/bookmarks">Bookmarks</Route>
-        <Route path="/lists">Lists</Route>
-        <Route path="/profile">Profile</Route>
+        <Route path="/" element={<Feeds/>}/> 
+        <Route path="/profile" element={<Profile/>}/>
       </Routes>
-
-      <div className="feeds">Feeds</div>
-      <div className="widget">Widget</div>
+      <Widget />
     </div>
+
+    </>
+
+   
   );
 }
 

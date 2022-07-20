@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import {IoMdClose} from "react-icons/io"
+import {IoMdClose} from "react-icons/io";
+import "./SignUpPage.css";
 
 const Register = ({ handleCloseModal }) => {
   const [userDetails, setUserDetails] = useState({
