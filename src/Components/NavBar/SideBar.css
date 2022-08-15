@@ -47,20 +47,9 @@ nav svg{
   padding-right: 20px;
 }
 
-/* nav > *, button.more-btn span{
-  background-color: red;
-  height: fit-content;
-  width: 12px;
-}
-
-nav > *, button.more-btn:hover{
-  
-} */
-
 button{
   border: unset;
-  background: unset;
-  
+  background: unset; 
 }
 
 button.tweet-btn{

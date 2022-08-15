@@ -37,8 +37,9 @@
   max-width: 400px;
 }
 
-.mid-section h1{
-  font-weight: 700;
+.mid-section > p.join-twitter{
+  font-weight: 900;
+  font-size: 35px;
 }
 
 .mid-section button{
@@ -58,15 +59,19 @@
   border: none;
 }
 
+.mid-section > p{
+  font-size: smaller;
+}
+
 .sign-in{
   padding: 20px;
   max-width: 400px;
 }
-.sign-in p{
+.sign-in > p{
   font-weight: 600;
 }
 
-.sign-in button{
+.sign-in > button{
   padding: 12px;
   border-radius: 25px;
   width: 100%;
@@ -77,13 +82,15 @@
   border:1px solid rgb(29 161 242);
 }
 
+/* LoginPage Style */
 .sign-in-modal{
-  border: 1px solid red;
+  border: 1px solid rgb(29 161 242);
   height: 90vh;
   width: 100%;
   max-width: 600px;
   margin: 40px auto;
   border-radius: 25px;
+  background-color: white;
 }
 
 .icons{
@@ -91,8 +98,9 @@
 }
 
 .close-modal{
-  margin-left: 10px;
+  margin-left: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .modal-bird{
@@ -120,6 +128,7 @@
   width: 100%;
   max-width: 80%;
   margin: 10px;
+  border: 1px solid rgb(29 161 242) ;
 }
 
 .btn-login{
@@ -156,4 +165,58 @@
   display: flex;
   padding: 5px;
   margin-left: 150px;
+}
+
+/* Register page styles */
+.close-reg-modal{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.reg-details{
+  padding: 20px;
+  width: 100%;
+  max-width: 70%;
+  margin: auto;
+  height: 80vh;
+}
+
+.reg-details > h1{
+  margin-bottom: 20px;
+}
+
+.reg-details input[type="text"]{
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 100%;
+  max-width: 80%;
+  outline: none;
+}
+
+.reg-details input[type="email"]{
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 100%;
+  max-width: 80%;
+  outline: none;
+}
+
+.reg-details input[type="password"]{
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 100%;
+  max-width: 80%;
+  outline: none;
+}
+
+.reg-btn{
+ background-color: rgb(29 161 242);
+ color: white;
+ width: 100%;
+ max-width: 80%;
+ margin: auto;
+ padding: 15px;
+ border-radius: 25px;
+ font-weight: 700;
+ font-size: 15px;
 }
