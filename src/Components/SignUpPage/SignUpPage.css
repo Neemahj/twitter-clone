@@ -185,23 +185,7 @@
   margin-bottom: 20px;
 }
 
-.reg-details input[type="text"]{
-  margin-bottom: 20px;
-  padding: 15px;
-  width: 100%;
-  max-width: 80%;
-  outline: none;
-}
-
-.reg-details input[type="email"]{
-  margin-bottom: 20px;
-  padding: 15px;
-  width: 100%;
-  max-width: 80%;
-  outline: none;
-}
-
-.reg-details input[type="password"]{
+.reg-details input{
   margin-bottom: 20px;
   padding: 15px;
   width: 100%;

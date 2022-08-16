@@ -12,7 +12,7 @@ const Register = ({ handleCloseModal }) => {
   });
 
   const handleChange = (e) => {
-    setUserDetails({ ...userDetails, [e.target.name]: e.target.value });
+    setUserDetails((userDetails) => ({ ...userDetails, [e.target.name]: e.target.value }));
   };
 
   return (
