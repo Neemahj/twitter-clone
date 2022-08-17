@@ -8,7 +8,7 @@ const LoginPage = ({ handleCloseModal2 }) => {
   const [login, setLogin] = useState({ username: "", password: "" });
 
   const handleChange = (e) => {
-    setLogin({ ...login, [e.target.name]: e.target.value });
+    setLogin((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
   return (

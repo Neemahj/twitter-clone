@@ -12,7 +12,7 @@ const Register = ({ handleCloseModal }) => {
   });
 
   const handleChange = (e) => {
-    setUserDetails((userDetails) => ({ ...userDetails, [e.target.name]: e.target.value }));
+    setUserDetails((previousState) => ({ ...previousState, [e.target.name]: e.target.value }));
   };
 
   return (
