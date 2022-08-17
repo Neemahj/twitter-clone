@@ -1,0 +1,206 @@
+.first-page {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.login-image {
+  width: 55%;
+}
+
+.login-image > img{
+  width: 100%;
+  height: 100%;
+}
+
+.login-fields{
+  padding: 10px;
+
+}
+
+.bird-icon{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.h1-text{
+  padding: 20px;
+  margin-top: 50px;
+  width: 100%;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.mid-section{
+  padding: 20px;
+  height: 300px;
+  max-width: 400px;
+}
+
+.mid-section > p.join-twitter{
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.mid-section button{
+  padding: 12px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.mid-section .google-signUp{
+  border: 1px solid rgb(29 161 242);
+}
+
+.email-btn{
+  background-color:rgb(29 161 242);
+  border: none;
+}
+
+.mid-section > p{
+  font-size: smaller;
+}
+
+.sign-in{
+  padding: 20px;
+  max-width: 400px;
+}
+.sign-in > p{
+  font-weight: 600;
+}
+
+.sign-in > button{
+  padding: 12px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+  color: rgb(29 161 242);
+  font-weight: 700;
+  border:1px solid rgb(29 161 242);
+}
+
+/* LoginPage Style */
+.sign-in-modal{
+  border: 1px solid rgb(29 161 242);
+  height: 90vh;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.icons{
+  margin: auto;
+}
+
+.close-modal{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.modal-bird{
+  margin-left: 250px;
+}
+
+.login-content{
+  width: 100%;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 70vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-content h1{
+  margin: 10px;
+}
+.login-content button{
+  padding: 10px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 80%;
+  margin: 10px;
+  border: 1px solid rgb(29 161 242) ;
+}
+
+.btn-login{
+  background-color: black;
+  color: white;
+  font-weight: 900;
+}
+
+.fgt-password{
+  font-weight: 600;
+}
+
+.login-content input[type="text"]{
+  padding: 20px;
+  width: 100%;
+  max-width: 80%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-content input[type="password"]{
+  padding: 10px;
+  width: 100%;
+  max-width: 80%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.link-div{
+  width: 100%;
+  max-width: 70%;
+  display: flex;
+  padding: 5px;
+  margin-left: 150px;
+}
+
+/* Register page styles */
+.close-reg-modal{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.reg-details{
+  padding: 20px;
+  width: 100%;
+  max-width: 70%;
+  margin: auto;
+  height: 80vh;
+}
+
+.reg-details > h1{
+  margin-bottom: 20px;
+}
+
+.reg-details input{
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 100%;
+  max-width: 80%;
+  outline: none;
+}
+
+.reg-btn{
+ background-color: rgb(29 161 242);
+ color: white;
+ width: 100%;
+ max-width: 80%;
+ margin: auto;
+ padding: 15px;
+ border-radius: 25px;
+ font-weight: 700;
+ font-size: 15px;
+}
