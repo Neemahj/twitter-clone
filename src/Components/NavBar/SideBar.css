@@ -1,0 +1,97 @@
+.side-bar{
+  background: rgb(21 32 43);
+  /* height: 100vh; */
+  color: white;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+header.side-bird{
+width: 100%;
+max-width: fit-content;
+margin-left: 60px;
+margin-top: 15px;
+}
+
+nav{
+  padding-left: 53px;
+  padding-top: 20px;
+}
+
+nav > *, button.more-btn{
+  display: block;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+span{
+  display: flex;
+  width: fit-content;
+  padding: 8px;
+}
+
+span:hover{
+  background-color: #42465e5e;
+  border-radius: 25px;
+}
+
+nav svg{
+  height: 25px;
+  padding-right: 20px;
+}
+
+button{
+  border: unset;
+  background: unset; 
+}
+
+button.tweet-btn{
+  display: block;
+  background: rgb(29 161 242);
+  height: 48px;
+  color: white;
+  width: 100%;
+  max-width: 70%;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer.left-pane-footer{
+  margin-left: 50px;
+  width: 18%;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.account-ctn{
+  display: flex;
+}
+
+.user-img > img{
+  border-radius: 50%;
+  width: 40px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.display_name{
+  font-weight: 700;
+}
+
+.username{
+  color: grey;
+}
+
+.dots-icon{
+  margin-left: 50px;
+}
