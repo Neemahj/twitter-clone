@@ -1,13 +1,9 @@
 import "./Feeds.css";
-import { BsStars } from "react-icons/bs";
-import { BsImage } from "react-icons/bs";
+import { BsStars, BsImage, BsFillEmojiSmileFill } from "react-icons/bs";
 import { RiFileGifLine } from "react-icons/ri";
-import { BiPoll } from "react-icons/bi";
-import { BsFillEmojiSmileFill } from "react-icons/bs";
+import { BiPoll, BiHeart, BiMessageRounded } from "react-icons/bi";
 import { TbCalendarTime } from "react-icons/tb";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import { BiHeart } from "react-icons/bi";
-import { BiMessageRounded } from "react-icons/bi"
 import { AiOutlineRetweet } from "react-icons/ai";
 import { FiShare } from "react-icons/fi"
 import { Tweets } from "./FeedsData";

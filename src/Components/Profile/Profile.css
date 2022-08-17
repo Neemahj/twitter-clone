@@ -58,5 +58,64 @@
   font-size: 15px;
 }
 
+.profile-mid-section{
+  height: 30vh;
+  border-bottom: 0.5px solid gray;
+  padding-left: 15px;
+}
 
+.profile-names{
+  margin-bottom: 20px;
+}
 
+.profile-name{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.profile-username{
+  color: gray;
+  font-size: 15px;
+}
+
+.user-profile-info{
+  margin-top: 15px;
+  display: flex;
+  color: gray;
+}
+
+.user-info{
+  display: flex;
+  margin-right: 20px;
+}
+
+.profile-info-text{
+  margin-left: 5px;
+}
+
+.user-followers{
+  display: flex;
+  margin-top: 10px;
+}
+
+.profile-ffg{
+  display: flex;
+  margin-right: 20px;
+}
+
+.ffg-no{
+  font-weight: 800;
+}
+
+.ffg-text{
+  margin-left: 5px;
+  color: gray;
+}
+
+.profile-lists{
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+  margin-top: 25px;
+  font-weight: 600;
+}
